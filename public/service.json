@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "category": "Engagement Parties",
+      "title": "Chic Engagement Soiree",
+      "title_id": "chic-engagement-soiree",
+      "image": "https://i.ibb.co/Hd4Mnvh/1.jpg",
+      "description": "Celebrate your engagement with unparalleled style and sophistication through our Chic Engagement Soiree. This exclusive package offers a glimpse into a world of luxury and elegance, creating an unforgettable experience for you and your loved ones. Our team pays meticulous attention to detail, ensuring that every aspect of your celebration radiates charm and glamour. From exquisite decor to gourmet catering, we curate an ambiance that reflects your unique love story. Your engagement is a momentous occasion, and our Chic Engagement Soiree is designed to elevate it to new heights. Enjoy the company of your guests in a setting that exudes refinement, with every element harmoniously contributing to the overall aesthetic. Our team of experienced event planners is dedicated to bringing your vision to life. Whether you envision a modern and sleek celebration or a timeless and classic affair, we have the expertise to make it a reality. Let the Chic Engagement Soiree mark the beginning of your journey towards a lifetime of love and companionship.",
+      "price": "$2500"
+    },
+    {
+      "id": 2,
+      "category": "Anniversaries",
+      "title": "Renewal of Vows Ceremony",
+      "title_id": "renewal-of-vows-ceremony",
+      "image": "https://i.ibb.co/SV52YJy/2.jpg",
+      "description": "Celebrate the enduring love that has withstood the test of time with our Renewal of Vows Ceremony. This heartfelt and intimate event is crafted to reaffirm the commitment and bond between you and your partner. Whether you are marking a significant milestone or simply expressing your love once again, our Renewal of Vows Ceremony creates a meaningful and memorable experience. Imagine exchanging vows in a setting that speaks to the depth of your connection. Our team works closely with you to tailor every detail of the ceremony, from the choice of venue to the selection of readings and music. We understand that this occasion holds immense sentimental value, and we are honored to be a part of it. The Renewal of Vows Ceremony is a symbolic journey back to the promises made on your wedding day. It allows you to reflect on the beautiful moments shared and to look forward to the years ahead. Let us create an atmosphere that captures the essence of your love story, making this ceremony a cherished chapter in your ongoing narrative.",
+      "price": "$3500"
+    },
+    {
+      "id": 3,
+      "category": "Baby Shower",
+      "title": "Joyful Baby Shower",
+      "title_id": "joyful-baby-shower",
+      "image": "https://i.ibb.co/QYq3g1k/3.jpg",
+      "description": "Welcome the upcoming bundle of joy with our Joyful Baby Shower. This heartwarming celebration is designed to fill the air with laughter, love, and anticipation as you prepare for the arrival of your little one. Our team specializes in creating a delightful atmosphere, ensuring that your baby shower is a memorable event for both you and your guests. The Joyful Baby Shower package encompasses a range of charming elements, from adorable decor to delectable treats. Immerse yourself in the joy of parenthood surrounded by friends and family who share in your excitement. Our event planners will work closely with you to tailor the baby shower to your preferences, creating a personalized experience that reflects your style. As you celebrate this special occasion, let us handle the details, allowing you to focus on the joy and anticipation of welcoming your baby. The Joyful Baby Shower is more than an event; it's a celebration of new beginnings and the love that will soon fill your home.",
+      "price": "$1200"
+    },
+    {
+      "id": 4,
+      "category": "Weddings",
+      "title": "Exquisite Wedding",
+      "title_id": "exquisite-wedding",
+      "image": "https://i.ibb.co/mFmDS7w/4.jpg",
+      "description": "Create lasting memories with our exquisite wedding planning services. We take care of every detail to make your special day truly magical. From the grand entrance to the smallest details, our team ensures that your wedding reflects your unique style and personality. The Exquisite Wedding package offers a curated experience that goes beyond the expected. Imagine exchanging vows in a romantic setting adorned with breathtaking decor. Picture a reception that captivates your guests with its elegance and charm. Our commitment is to turn your wedding dreams into a reality. Our team of skilled professionals will work with you every step of the way, offering guidance and expertise to bring your vision to life. Whether you desire a traditional ceremony or a contemporary celebration, we have the creativity and resources to make it happen. Let the Exquisite Wedding package transform your special day into an extraordinary event. It's not just a wedding; it's a celebration of love, union, and the beginning of a beautiful journey together.",
+      "price": "$5000"
+    },
+    {
+      "id": 5,
+      "category": "Anniversaries",
+      "title": "Silver Jubilee Celebration",
+      "title_id": "silver-jubilee-celebration",
+      "image": "https://i.ibb.co/HDNR5RG/5.jpg",
+      "description": "Mark 25 years of love and companionship with our Silver Jubilee Celebration package. A milestone worthy of a grand celebration, this event is crafted to honor the journey of a couple who has shared a quarter of a century together. Whether you're planning a surprise celebration for your parents or arranging your own memorable milestone, our team is here to make it extraordinary. The Silver Jubilee Celebration includes thoughtful details that reflect the significance of this occasion. From elegant decor to personalized touches, every element is designed to create an atmosphere of joy and reflection. We understand the importance of honoring such a long and enduring commitment, and we take pride in being part of this special celebration. Our experienced event planners will collaborate with you to ensure that the Silver Jubilee Celebration is a true reflection of your relationship. Let us handle the details while you enjoy the company of loved ones and bask in the memories of a journey well-lived.",
+      "price": "$8000"
+    },
+    {
+      "id": 6,
+      "category": "Baby Shower",
+      "title": "Gender Reveal Extravaganza",
+      "title_id": "gender-reveal-extravaganza",
+      "image": "https://i.ibb.co/j3jfrz0/6.jpg",
+      "description": "Add excitement to your baby shower with our Gender Reveal Extravaganza. This fun-filled event is designed to create lasting memories as you unveil the gender of your little one in a unique and unforgettable way. Our team specializes in orchestrating creative and joyous gender reveal moments that will leave a lasting impression on you and your guests. Imagine the anticipation as you and your loved ones gather to discover the gender of your baby. The Gender Reveal Extravaganza offers a variety of options, from confetti cannons to balloon releases, each tailored to suit your preferences. We understand the significance of this moment, and our goal is to make it as magical as possible. Our experienced event planners will work with you to create a personalized experience that adds an extra layer of excitement to your baby shower. Let the Gender Reveal Extravaganza turn this special occasion into a celebration full of surprises, laughter, and shared joy.",
+      "price": "$1500"
+    },
+    {
+      "id": 7,
+      "category": "Retirement Parties",
+      "title": "Farewell to a Legend",
+      "title_id": "farewell-to-a-legend",
+      "image": "https://i.ibb.co/prXRjKR/7.jpg",
+      "description": "Celebrate the retirement of a legend with our special Farewell to a Legend package. This event is a tribute to a career well-lived and accomplishments achieved. Whether you're organizing a retirement party for a colleague, friend, or family member, our team is dedicated to creating a memorable and meaningful experience that honors their contributions. The Farewell to a Legend package includes carefully curated details that reflect the personality and achievements of the retiree. From customized decor to heartfelt speeches, every element is designed to create an atmosphere of appreciation and nostalgia. We understand the importance of recognizing and celebrating a distinguished career, and we take pride in being part of this special moment. Our experienced event planners will collaborate with you to ensure that the Farewell to a Legend event is a fitting tribute. Let us handle the details, allowing you to focus on expressing gratitude and best wishes for the retiree's future endeavors.",
+      "price": "$4000"
+    },
+    {
+      "id": 8,
+      "category": "Weddings",
+      "title": "Garden Wedding",
+      "title_id": "garden-wedding",
+      "image": "https://i.ibb.co/VB4W94z/8.jpg",
+      "description": "Celebrate your love amidst nature with our garden wedding packages. Elegant settings, beautiful flowers, and a magical atmosphere await. The Garden Wedding package is designed for couples who envision exchanging vows surrounded by the beauty of nature, creating a romantic and enchanting backdrop for their special day. Imagine walking down the aisle in a picturesque garden adorned with blossoming flowers and lush greenery. Our team of skilled professionals will work with you to ensure that every detail, from the ceremony setup to the reception decor, aligns with your vision. We understand the desire for a wedding that is both timeless and infused with the serenity of nature. The Garden Wedding package includes not only the aesthetic elements but also the logistical details that make for a seamless celebration. Our goal is to create a magical experience that leaves you and your guests enchanted by the beauty of your love story. Let the Garden Wedding package turn your dream of a nature-inspired wedding into a reality.",
+      "price": "$5500"
+    },
+    {
+      "id": 9,
+      "category": "Retirement Parties",
+      "title": "Relaxation Retirement",
+      "title_id": "relaxation-retirement",
+      "image": "https://i.ibb.co/6sVnBDb/9.png",
+      "description": "Bid farewell to the working days and embrace relaxation with our Retirement Relaxation Retreat. An opportunity to unwind and enjoy the golden years, this retreat is designed for those who are ready to embark on a new chapter of life filled with leisure and tranquility. Imagine a retreat where the retiree can indulge in moments of self-reflection, surrounded by serene landscapes and rejuvenating activities. Our team will curate an experience that caters to the retiree's preferences, whether it's a spa day, nature walks, or simply unwinding by the pool. The Retirement Relaxation Retreat is a thoughtful and meaningful way to express appreciation for years of hard work and dedication. Our experienced event planners will collaborate with you to ensure that every detail of the retreat aligns with the retiree's desires. Let us handle the logistics, allowing the retiree to fully embrace the relaxation and joy that comes with the well-deserved retirement.",
+      "price": "$3000"
+    },
+    {
+      "id": 10,
+      "category": "Birthday Parties",
+      "title": "Themed Birthday Bash",
+      "title_id": "themed-birthday-bash",
+      "image": "https://i.ibb.co/Y8crp9D/10.jpg",
+      "description": "Make your birthday unforgettable with our themed birthday bash packages. From superheroes to princesses, we've got you covered. The Themed Birthday Bash package is designed for those who want to celebrate their special day with a touch of creativity and whimsy. Picture a birthday party where every detail, from the decorations to the entertainment, aligns with a chosen theme. Whether you're a fan of superheroes, enchanted forests, or glamorous Hollywood, our team will bring your vision to life. The Themed Birthday Bash is not just a party; it's an immersive experience that transports you and your guests to a world of fun and excitement. Our experienced event planners will work closely with you to customize the party to your preferences, ensuring that the theme is seamlessly integrated into every aspect of the celebration. Let the Themed Birthday Bash package turn your birthday into a fantastical journey filled with laughter, joy, and unforgettable memories.",
+      "price": "$1500"
+    },
+    {
+      "id": 11,
+      "category": "Engagement Parties",
+      "title": "Rustic Engagement Gathering",
+      "title_id": "rustic-engagement-gathering",
+      "image": "https://i.ibb.co/SsDTCcV/11.jpg",
+      "description": "Embrace the charm of rustic romance with our Rustic Engagement Gathering. A cozy and intimate celebration with a touch of nature, this package is perfect for couples who appreciate the beauty of simplicity and the warmth of natural elements. Imagine an engagement party set against the backdrop of a rustic barn, adorned with soft string lights and earthy decor. Our team will curate an atmosphere that reflects the authenticity of your love story, creating a setting where you and your guests can celebrate amidst the beauty of nature. The Rustic Engagement Gathering includes thoughtful details that capture the essence of rustic elegance. From farm-to-table catering to handcrafted decor, every element contributes to the charm of the celebration. Our experienced event planners will collaborate with you to ensure that the gathering is a true reflection of your love and commitment. Let the Rustic Engagement Gathering create a memorable and heartfelt start to your journey towards marriage.",
+      "price": "$1800"
+    },
+    {
+      "id": 12,
+      "category": "Birthday Parties",
+      "title": "Surprise Party",
+      "title_id": "surprise-party",
+      "image": "https://i.ibb.co/4YDH1wh/12.jpg",
+      "description": "Give your loved ones the gift of surprise! Our team specializes in organizing surprise birthday parties that will leave everyone in awe. The Surprise Party package is designed for those who want to create a moment of joy and excitement for the guest of honor. Imagine the delight on their face as they walk into a room filled with loved ones, all gathered to celebrate their special day. Our experienced event planners will work with you to ensure that every aspect of the surprise is carefully orchestrated, from the initial entrance to the reveal of the festivities. The Surprise Party is not just an event; it's a gesture of love and thoughtfulness. Our team understands the art of surprise and will go the extra mile to make this moment unforgettable. Whether it's a milestone birthday or a spontaneous celebration, the Surprise Party package is the perfect way to show someone how much they are cherished. Let the surprise unfold and create lasting memories for everyone involved.",
+      "price": "$1200"
+    }
+  ]
+  
