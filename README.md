@@ -15,9 +15,12 @@ An intuitive and feature-rich **Event Management System** built with **ReactJS**
 ---
 
 ## 📸 Screenshots  
-(Upload relevant screenshots here)
 
----
+![Screenshot 2025-04-02 145322](https://github.com/user-attachments/assets/cc6f1a85-a263-46b3-acba-bed59a2fb0e0)
+
+![Screenshot 2025-04-02 145342](https://github.com/user-attachments/assets/4aa0e3fc-7042-499f-81d0-14cfe2a42308)
+
+![Screenshot 2025-04-02 145405](https://github.com/user-attachments/assets/17534850-e1c1-4515-81a2-38c94714b5a3)
 
 ## 🛠️ Tech Stack  
 - **Frontend**: ReactJS, Tailwind CSS  
