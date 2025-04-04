@@ -7,6 +7,7 @@ import Services from '../layouts/Services'
 import Categories from '../components/Categories'
 import Newsletter from '../layouts/Newsletter'
 
+
 export default function Home() {
   return (
     <div>

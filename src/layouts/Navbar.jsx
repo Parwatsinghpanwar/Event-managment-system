@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useFirebase } from '../FirebaseContext';
-import { signOut } from 'firebase/auth'; 
+import { signOut } from 'firebase/auth';
 
 const Navbar = () => {
   const { user, auth } = useFirebase();
@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const handleContentClick = () => {
     setMenuIcon((prevIcon) => (prevIcon === 'menu' ? 'close' : 'menu'));
-    setMenuVisible(!menuVisible); 
+    setMenuVisible(!menuVisible);
   };
 
   const handleSignOut = async () => {
@@ -30,21 +30,21 @@ const Navbar = () => {
     <nav className="p-5 bg-white shadow lg:flex lg:items-center lg:justify-between">
       <div className="flex justify-between items-center">
         <div className='flex flex-1 items-center justify-between'>
-        <Link to='/'>
-          <span className="text-2xl md:text-3xl font-extrabold cursor-pointer">
-          Event<span className='text-[#00A4EF]'>ique</span>
-          </span>
-        </Link>
-        {user ? (
-          <div className='flex lg:hidden items-center gap-3 mx-3'>
-            <p className='text-sm md:text-base lg:text-lg'>{user.displayName}</p>
-            {user.photoURL ? (
-              <img className='h-10 w-10 rounded-full' src={user.photoURL} alt={user.displayName} />
-            ) : (
-              <img className='h-10 w-10 rounded-full' src="https://i.ibb.co/HzrsZjz/man.png" alt={user.displayName} />
-            )}
-          </div>
-        ) : (<></>)}
+          <Link to='/'>
+            <span className="text-2xl md:text-3xl font-extrabold cursor-pointer">
+              Event<span className='text-[#00A4EF]'>ique</span>
+            </span>
+          </Link>
+          {user ? (
+            <div className='flex lg:hidden items-center gap-3 mx-3'>
+              <p className='text-sm md:text-base lg:text-lg'>{user.displayName}</p>
+              {user.photoURL ? (
+                <img className='h-10 w-10 rounded-full' src={user.photoURL} alt={user.displayName} />
+              ) : (
+                <img className='h-10 w-10 rounded-full' src="https://i.ibb.co/HzrsZjz/man.png" alt={user.displayName} />
+              )}
+            </div>
+          ) : (<></>)}
         </div>
         <span className="text-3xl cursor-pointer -mr-2 md:mx-2 lg:hidden block">
           <ion-icon name={menuIcon} onClick={toggleMenu}></ion-icon>
@@ -67,6 +67,10 @@ const Navbar = () => {
           <NavLink onClick={handleContentClick} to="/contactus" className={(navData) => (navData.isActive ? "active" : 'null')}>
             <li className="mx-4 my-4 text-lg xl:text-xl hover:text-cyan-500 duration-500">Contact</li>
           </NavLink>
+          <NavLink onClick={handleContentClick} to="/events" className={(navData) => (navData.isActive ? "active" : 'null')}>
+                <li className="mx-4 my-4 text-lg xl:text-xl hover:text-cyan-500 duration-500">Events</li>
+              </NavLink>
+              
 
           {user ? (
             <>
@@ -76,20 +80,23 @@ const Navbar = () => {
               <NavLink onClick={handleContentClick} to="/profile" className={(navData) => (navData.isActive ? "active" : 'null')}>
                 <li className="mx-4 my-4 text-lg xl:text-xl hover:text-cyan-500 duration-500">Profile</li>
               </NavLink>
+              <NavLink onClick={handleContentClick} to="/events" className={(navData) => (navData.isActive ? "active" : 'null')}>
+                <li className="mx-4 my-4 text-lg xl:text-xl hover:text-cyan-500 duration-500">Events</li>
+              </NavLink>
 
               <div className='hidden lg:flex items-center gap-3 mx-3'>
-            <p className='text-sm md:text-base lg:text-lg'>{user.displayName}</p>
-            {user.photoURL ? (
-              <img className='h-10 w-10 rounded-full' src={user.photoURL} alt={user.displayName} />
-            ) : (
-              <img className='h-10 w-10 rounded-full' src="https://i.ibb.co/HzrsZjz/man.png" alt={user.displayName} />
-            )}
-          </div>
-         <button onClick={() => {
-    handleSignOut();
-    handleContentClick();
-  }}
-   className="bg-cyan-400 text-white duration-500 px-6 text-lg py-2 mx-4 hover:bg-cyan-500 rounded-lg mb-4 lg:mb-0">
+                <p className='text-sm md:text-base lg:text-lg'>{user.displayName}</p>
+                {user.photoURL ? (
+                  <img className='h-10 w-10 rounded-full' src={user.photoURL} alt={user.displayName} />
+                ) : (
+                  <img className='h-10 w-10 rounded-full' src="https://i.ibb.co/HzrsZjz/man.png" alt={user.displayName} />
+                )}
+              </div>
+              <button onClick={() => {
+                handleSignOut();
+                handleContentClick();
+              }}
+                className="bg-cyan-400 text-white duration-500 px-6 text-lg py-2 mx-4 hover:bg-cyan-500 rounded-lg mb-4 lg:mb-0">
                 Sign Out
               </button>
             </>
