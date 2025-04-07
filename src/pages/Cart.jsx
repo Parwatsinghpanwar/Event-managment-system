@@ -1,8 +1,61 @@
 import React from 'react';
 
 export default function Cart() {
-
   const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+  const calculateTotal = (items) => {
+    return items.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
+  };
+
+  const handleRemoveFromCart = (index) => {
+    const updatedCart = [...cartItems.slice(0, index), ...cartItems.slice(index + 1)];
+    localStorage.setItem('cart', JSON.stringify(updatedCart));
+    window.location.reload();
+  };
+
+  const handleCheckout = async () => {
+    const amount = calculateTotal(cartItems);
+
+    try {
+      const response = await fetch('http://localhost:5000/api/payment/create-order', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ amount }),
+      });
+
+      const data = await response.json();
+
+      const options = {
+        key: 'rzp_test_EjPCBYGTLrKWGI', // Replace with your Razorpay key
+        amount: data.order.amount,
+        currency: data.order.currency,
+        name: 'Event Booking',
+        description: 'Payment for services',
+        order_id: data.order.id,
+        handler: function (response) {
+          alert("Payment Successful!");
+          localStorage.removeItem('cart'); // clear cart
+          window.location.reload();
+        },
+        prefill: {
+          name: "Parwat Singh",
+          email: "parwat@example.com",
+          contact: "9876543210"
+        },
+        theme: {
+          color: "#00A4EF"
+        }
+      };
+
+      const rzp = new window.Razorpay(options);
+      rzp.open();
+    } catch (err) {
+      console.error(err);
+      alert("Payment failed. Try again.");
+    }
+  };
 
   return (
     <div className="p-4 px-3 md:px-10 lg:px-20 mx-auto my-8 lg:mt-16" data-aos="zoom-in-up" data-aos-duration="2000">
@@ -36,23 +89,14 @@ export default function Cart() {
             <span className="font-bold text-lg md:text-xl xl:text-2xl">Total:</span>
             <span className="font-bold text-lg md:text-xl xl:text-2xl lg:pr-5">${calculateTotal(cartItems)}</span>
           </div>
-          <button className="block w-full mt-4 bg-[#00A4EF] hover:bg-[#0989c9] md:text-lg lg:text-xl text-white font-bold py-2.5 lg:py-3.5 rounded">
-            Checkout
+          <button
+            onClick={handleCheckout}
+            className="block w-full mt-4 bg-[#00A4EF] hover:bg-[#0989c9] md:text-lg lg:text-xl text-white font-bold py-2.5 lg:py-3.5 rounded"
+          >
+            Checkout & Pay
           </button>
         </div>
       </div>
     </div>
   );
 }
-
-const calculateTotal = (cartItems) => {
-  return cartItems.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
-};
-
-
-const handleRemoveFromCart = (index) => {
-  const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-  const updatedCart = [...cartItems.slice(0, index), ...cartItems.slice(index + 1)];
-  localStorage.setItem('cart', JSON.stringify(updatedCart));
-  window.location.reload();
-};
