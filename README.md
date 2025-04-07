@@ -1,5 +1,7 @@
 # 🎉 Event Management System
 
+Live link "https://event-managment-system-ten.vercel.app/ "
+
 An intuitive and feature-rich **Event Management System** built with **ReactJS** and **Tailwind CSS**, designed to help users create, manage, and organize events effortlessly.
 
 ---
